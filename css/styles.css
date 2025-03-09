@@ -1,0 +1,166 @@
+/* Custom Styles */
+:root {
+  --primary-color: #0E153A;
+  --secondary-color: #3D5AF1;
+  --accent-color: #22D1EE;
+  --light-color: #E2F3F5;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--primary-color);
+  background-color: #fff;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--primary-color) !important;
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.company-name {
+  color: var(--accent-color);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: var(--light-color) !important;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: var(--accent-color) !important;
+}
+
+/* Hero Section */
+.hero-section {
+  background: url('../images/hero-bg.png') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--light-color);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--accent-color);
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  color: var(--light-color);
+}
+
+.hero-content .btn {
+  background-color: var(--accent-color);
+  border: none;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+}
+
+.hero-content .btn:hover {
+  background-color: var(--secondary-color);
+}
+
+/* About Section */
+.about-section {
+  background-color: var(--light-color);
+  padding: 100px 0;
+}
+
+.about-section h2 {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/* Services Section */
+.services-section {
+  background-color: #fff;
+  padding: 100px 0;
+}
+
+.services-section h2 {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-title {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: var(--light-color);
+  padding: 100px 0;
+}
+
+.contact-section h2 {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.contact-section form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section .btn {
+  background-color: var(--accent-color);
+  border: none;
+  padding: 10px 30px;
+}
+
+.contact-section .btn:hover {
+  background-color: var(--secondary-color);
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+}
